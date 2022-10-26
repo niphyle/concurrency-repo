@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSumApp", "ThreadSumApp\ThreadSumApp.csproj", "{A89BE99D-1C44-4A9D-B8EC-D78FED1D12FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A89BE99D-1C44-4A9D-B8EC-D78FED1D12FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89BE99D-1C44-4A9D-B8EC-D78FED1D12FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89BE99D-1C44-4A9D-B8EC-D78FED1D12FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89BE99D-1C44-4A9D-B8EC-D78FED1D12FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A36C9E4-76CB-4112-A31A-CD007E1F4992}
+	EndGlobalSection
+EndGlobal

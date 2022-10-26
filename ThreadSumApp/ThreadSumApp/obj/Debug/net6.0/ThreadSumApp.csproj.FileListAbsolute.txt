@@ -1,0 +1,15 @@
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.exe
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.deps.json
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.runtimeconfig.json
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.dll
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.pdb
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.csproj.AssemblyReference.cache
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.AssemblyInfoInputs.cache
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.AssemblyInfo.cs
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.csproj.CoreCompileInputs.cache
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.dll
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\refint\ThreadSumApp.dll
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.pdb
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.genruntimeconfig.cache
+D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ref\ThreadSumApp.dll
