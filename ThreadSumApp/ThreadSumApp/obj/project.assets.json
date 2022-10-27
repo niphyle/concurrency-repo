@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School\\Fall 2022\\Software Dev 1\\Module 8\\ThreadSumApp\\ThreadSumApp\\ThreadSumApp.csproj",
+      "projectUniqueName": "C:\\Users\\n_ibr\\Source\\Repos\\niphyle\\concurrency-repo\\ThreadSumApp\\ThreadSumApp\\ThreadSumApp.csproj",
       "projectName": "ThreadSumApp",
-      "projectPath": "D:\\School\\Fall 2022\\Software Dev 1\\Module 8\\ThreadSumApp\\ThreadSumApp\\ThreadSumApp.csproj",
+      "projectPath": "C:\\Users\\n_ibr\\Source\\Repos\\niphyle\\concurrency-repo\\ThreadSumApp\\ThreadSumApp\\ThreadSumApp.csproj",
       "packagesPath": "C:\\Users\\n_ibr\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\Fall 2022\\Software Dev 1\\Module 8\\ThreadSumApp\\ThreadSumApp\\obj\\",
+      "outputPath": "C:\\Users\\n_ibr\\Source\\Repos\\niphyle\\concurrency-repo\\ThreadSumApp\\ThreadSumApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

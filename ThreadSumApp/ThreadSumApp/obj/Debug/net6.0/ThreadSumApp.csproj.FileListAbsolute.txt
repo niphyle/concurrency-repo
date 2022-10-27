@@ -13,3 +13,18 @@ D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\
 D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.pdb
 D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.genruntimeconfig.cache
 D:\School\Fall 2022\Software Dev 1\Module 8\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ref\ThreadSumApp.dll
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.exe
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.deps.json
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.runtimeconfig.json
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.dll
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\bin\Debug\net6.0\ThreadSumApp.pdb
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.csproj.AssemblyReference.cache
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.AssemblyInfoInputs.cache
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.AssemblyInfo.cs
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.csproj.CoreCompileInputs.cache
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.dll
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\refint\ThreadSumApp.dll
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.pdb
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ThreadSumApp.genruntimeconfig.cache
+C:\Users\n_ibr\Source\Repos\niphyle\concurrency-repo\ThreadSumApp\ThreadSumApp\obj\Debug\net6.0\ref\ThreadSumApp.dll

@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 /// <summary>
@@ -12,51 +13,58 @@ using System.Threading.Tasks;
 
 public class Concurrency
 {
-   // TODO: Change array size after testing
+   
     public static void Main()
     {
-        int[] randomArray = new int[50]; // Change to 200,000,000
+        int[] randomArray = new int[10000];
         randomArray = RandomNum();
 
-        Console.WriteLine("\nFrom Main Method:");
-        for (int i = 0; i < randomArray.Length; i++)
-        {
-            Console.Write(randomArray[i] + " ");
-        }
-
-        Console.WriteLine("\nThe sum is: " + ArraySum(randomArray));
-
+        // run the threads in parallel.
         Parallel.Invoke(() =>
         {
-            Console.WriteLine("Begin first task...");
+            Console.WriteLine("Begin first thread...");
             Thread1(randomArray);
-        }, // Close first Action
+        },
 
         () =>
         {
-            Console.WriteLine("Begin second task...");
+            Console.WriteLine("Begin second thread...");
             Thread2(randomArray);
-        });
-        
+        }//,
+
+        //() =>
+        //{
+        //    Console.WriteLine("Begin third thread...");
+        //    Thread3(randomArray);
+        //},
+
+        //() =>
+        //{
+        //    Console.WriteLine("Begin fourth thread..");
+        //    Thread4(randomArray);
+        //}
+        );
+
+        Console.WriteLine("Begin single thread...");
+        LoneThread(randomArray);
     }
-    // TODO: change array size after testing
+
     /// <summary>
     /// A method to fill the array with random numbers.
     /// </summary>
     /// <returns></returns>
     public static int[] RandomNum()
     {
-        int[] array = new int[50]; // Change to 200,000,000
-
-        Console.WriteLine("From RandomNum Method:");
+        int[] array = new int[10000];
 
         for (int i = 0; i < array.Length; i++)
         {
             array[i] = RandomNumGenerator();
-            Console.Write(array[i] + " ");
         }
+
         return array;
     }
+
     /// <summary>
     /// A method to pass back to RandomNum() only values between 1 and 10
     /// </summary>
@@ -71,8 +79,9 @@ public class Concurrency
 
         return number;
     }
+
     /// <summary>
-    /// A mthod to caclulate and return the sum of the array.
+    /// A method to caclulate and return the sum of the array.
     /// </summary>
     /// <param name="array"></param>
     /// <returns></returns>
@@ -82,7 +91,7 @@ public class Concurrency
 
         for (int i = 0; i < array.Length; i++)
         {
-            sum = sum + array[i];
+            sum += array[i];
         }
 
         return sum;
@@ -91,28 +100,52 @@ public class Concurrency
     // Compute the sum in parallel using multiple threads
     public static void Thread1(int[] array)
     {
-        for (int i = 0; i < array.Length; i++)
-        {
-            Console.WriteLine("Thread 1: " + array[i]);  
-        }
-        Console.WriteLine("Thread 1 sum: " + ArraySum(array)); 
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
+        stopwatch.Stop();
+        TimeSpan timeSpan = stopwatch.Elapsed;
+        Console.WriteLine("Thread 1 sum: " + ArraySum(array) + ". It took " + timeSpan.Milliseconds + " milliseconds to calculate the sum."); 
     }
 
     public static void Thread2(int[] array)
     {
-        for (int i = 0; i < array.Length; i++)
-        {
-            Console.WriteLine("Thread 2: " + array[i]);
-        }
-        Console.WriteLine("Thread 2 sum: " + ArraySum(array));
-
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
+        stopwatch.Stop();
+        TimeSpan timeSpan = stopwatch.Elapsed;
+        Console.WriteLine("Thread 2 sum: " + ArraySum(array) + ". It took " + timeSpan.Milliseconds + " milliseconds to calculate the sum.");
     }
 
-    // Compute the sum using only one thread
+    public static void Thread3(int[] array)
+    {
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
+        stopwatch.Stop();
+        TimeSpan timeSpan = stopwatch.Elapsed;
+        Console.WriteLine("Thread 3 sum: " + ArraySum(array) + ". It took " + timeSpan.Milliseconds + " milliseconds to calculate the sum.");
+    }
 
-    // Display the sum and times for both cases
+    public static void Thread4(int[] array)
+    {
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
+        stopwatch.Stop();
+        TimeSpan timeSpan = stopwatch.Elapsed;
+        Console.WriteLine("Thread 4 sum: " + ArraySum(array) + ". It took " + timeSpan.Milliseconds + " milliseconds to calculate the sum.");
+    }
 
-
+    /// <summary>
+    /// A method to find the sum of the array using a single thread
+    /// </summary>
+    /// <param name="array"></param>
+    public static void LoneThread(int[] array)
+    {
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
+        stopwatch.Stop();
+        TimeSpan timeSpan = stopwatch.Elapsed;
+        Console.WriteLine("Single thread sum: " + ArraySum(array) + ". It took " + timeSpan.Milliseconds + " milliseconds to calculate the sum.");
+    }
 
 }
     
